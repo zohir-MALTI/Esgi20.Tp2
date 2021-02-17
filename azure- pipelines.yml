@@ -15,3 +15,5 @@ stages:
       displayName: Restore dependencies
     - script: dotnet build --no-restore
       displayName: Build project
+    - script: dotnet test --no-build
+      displayName: Launch unit tests

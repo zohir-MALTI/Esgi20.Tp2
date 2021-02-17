@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDotNet", "WebApiDotNet\WebApiDotNet.csproj", "{F5E4BBEB-4E75-488A-B2CA-257B876136FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDotNet.Tests", "WebApiDotNet.Tests\WebApiDotNet.Tests.csproj", "{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{F5E4BBEB-4E75-488A-B2CA-257B876136FB}.Release|x64.Build.0 = Release|Any CPU
 		{F5E4BBEB-4E75-488A-B2CA-257B876136FB}.Release|x86.ActiveCfg = Release|Any CPU
 		{F5E4BBEB-4E75-488A-B2CA-257B876136FB}.Release|x86.Build.0 = Release|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Debug|x64.Build.0 = Debug|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Debug|x86.Build.0 = Debug|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Release|x64.ActiveCfg = Release|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Release|x64.Build.0 = Release|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Release|x86.ActiveCfg = Release|Any CPU
+		{047836FE-E8EB-48E5-9F00-FBB45FFF5E48}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
