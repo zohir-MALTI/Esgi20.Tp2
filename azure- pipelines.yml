@@ -15,5 +15,11 @@ stages:
       displayName: Restore dependencies
     - script: dotnet build --no-restore
       displayName: Build project
-    - script: dotnet test --no-build
+    - script: dotnet test --no-build --logger trx --collect "Code Coverage"
       displayName: Launch unit tests
+    - task: PublishTestResults@2
+      inputs:
+        testRunTitle: Unit Tests
+        testResultsFormat: VSTest
+        testResultsFiles: '**/*.trx'
+      displayName: Publish tests report
